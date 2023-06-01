@@ -18,29 +18,54 @@
     <div class="main-container">
         <!-- haut de page -->
         <header>
-            <a href="images/logo/Booki@3x.png">
-                <img src="images/logo/Booki.png" class="logo" alt="Logo de Booki">
-            </a>
-            <nav>
-                <ul>
-                    <a href="#hebergements">
-                        <li>Hébergements</li>
-                    </a>
-                    <a href="#activites">
-                        <li>Activités</li>
-                    </a>
-                </ul>
-            </nav>
-        </header>
-        <main>
+            <div class="top_page">
+                <a href="images/logo/Booki@3x.png">
+                    <img src="images/logo/Booki.png" class="logo" alt="Logo de Booki">
+                </a>
+                <nav>
+                    <ul>
+                        <a href="#hebergements">
+                            <li>Hébergements</li>
+                        </a>
+                        <a href="#activites">
+                            <li>Activités</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre-ville ou en pleine nature</p>
             <!-- fonction recherche -->
             <form method="get" action="">
                 <label for="recherche"><i class="fa-solid fa-location-dot"></i></label>
-                <input type="search" name="" id="recherche" value="Marseille, France">
+                <input type="text" name="" id="recherche" value="Marseille, France">
                 <button class="rechercher">Rechercher</button>
             </form>
+            <div class="filtre_container">
+                <h3>Filtres</h3>
+                <ul>
+                    <a href="#">
+                        <li><i class="fa-solid fa-money-bill-wave"></i>Économique</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-person"></i>Familial</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-heart"></i>Économique</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-fire"></i>Économique</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="informations">
+                <div class="icone_info">
+                    <i class="fa-solid fa-info"></i>
+                </div>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+        </header>
+        <main>
             <!-- section hébergements  -->
             <div class="hebergements-and-populaires">
                 <section class="hebergements" id="hebergements">
