@@ -64,11 +64,11 @@ header {
 
 ul {
     display: flex;
+    gap: 69px;
 
 }
 
 nav li {
-    margin-left: 30px;
     padding: 14px 0;
     border-top: 2px solid transparent;
 }
