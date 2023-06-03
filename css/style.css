@@ -33,7 +33,10 @@ a {
     color: black;
     text-decoration: none;
 }
+ul {
+    display: flex;
 
+}
 
 .main-container {
     width: 100%;
@@ -42,7 +45,7 @@ a {
     box-sizing: border-box;
 }
 
-/* header  */
+/****** header  *********/
 header {
     display: flex;
     flex-direction: column;
@@ -62,10 +65,9 @@ header {
 
 }
 
-ul {
-    display: flex;
-    gap: 69px;
 
+nav ul {
+    gap: 69px;
 }
 
 nav li {
@@ -90,7 +92,7 @@ h1 {
     margin-bottom: 8px;
 }
 
-/* section rechercher */
+/****** section rechercher ***********/
 form {
     display: flex;
     align-items: center;
@@ -128,7 +130,8 @@ form input:focus {
     border: none;
 }
 
-/* section filtre */
+/****** section filtre ********/
+
 .filtre_container {
     display: flex;
     align-items: center;
@@ -153,7 +156,7 @@ form input:focus {
     margin-right: 0.7rem;
 }
 
-/* section info */
+/******* section info *********/
 .informations {
     display: flex;
     align-items: center;
@@ -171,7 +174,7 @@ form input:focus {
     margin-right: 0.5rem;
 }
 
-/* main  */
+/******* main  ***********/
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -196,6 +199,7 @@ form input:focus {
 
 .card-title {
     font-size: 16px;
+    font-weight: 700;
 }
 
 .euro {
@@ -250,6 +254,7 @@ form input:focus {
 .hebergements-cards .card-title {
     margin-top: 8px;
 }
+
 .hebergements-cards .card-content {
     padding-left: 8px;
 }
