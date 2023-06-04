@@ -77,7 +77,10 @@ nav li {
 }
 
 nav li:hover {
-    border-top-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+nav li:hover a {
     color: var(--main-color);
 }
 
@@ -132,6 +135,9 @@ form input:focus {
 }
 
 /****** section filtre ********/
+.filtre_container a:hover {
+    background-color: var(--filter-bg-color);
+}
 
 .filtre_container {
     display: flex;
@@ -141,15 +147,13 @@ form input:focus {
     margin-bottom: 35px;
 }
 
+
+
 .filtre_container a {
+    padding: 14px;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     margin-left: 1rem;
-
-}
-
-.filtre_container li {
-    padding: 14px;
 
 }
 
@@ -181,9 +185,7 @@ form input:focus {
     font-size: 22px;
 }
 
-.filtre_container a:hover {
-    background-color: var(--filter-bg-color);
-}
+
 
 
 .card {
@@ -320,14 +322,12 @@ form input:focus {
     margin: 0 30px
 }
 
-.activites a {
-    display: flex;
-    flex-direction: column;
-    height: 500px;
+.pop_card {
+    height: 439px;
 }
 
 .img_container {
-    height: 80%;
+    height: 380px;
 }
 
 .activites_cards {
