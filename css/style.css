@@ -224,7 +224,6 @@ h1 {
 
 .filtre_container {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     font-size: 17px;
     font-weight: 700;
@@ -267,16 +266,38 @@ h1 {
 }
 /* filtres mobile  */
 @media screen and (max-width: 767.98px) {
-    .filtre_liens {
+    .filtre_container {
+        width: 100%;
         justify-content: center;
-        align-content: center;
+        align-items: flex-start;
+        margin: auto;
+    }
+    .filtre_liens {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+        width: 80%;
+        margin: auto;
+        height: 200px;
+        
     }
 
 
     .filtre_liens a {
         display: block;
-        min-width: 150px;
+        width: 150px;
         margin: 0;
+    }
+    .filtre_liens_gauche {
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    .filtre_liens_droit {
+        display: flex;
+        justify-content: center;
+        
     }
 }
 
@@ -355,7 +376,8 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 30px;
+    align-content: space-between;
+    height: 85%;
     line-height: 1.5rem;
 }
 
@@ -391,8 +413,19 @@ h1 {
     font-size: 18px;
     font-weight: 700;
 }
+@media screen and (max-width: 1024px) {
+    .hebergements {
+        height: 100%;
+    }
+}
 /* hébergements mobile  */
 @media screen and (max-width: 767.98px) {
+    .hebergements {
+        height: 100%;
+    }
+    .hebergements-cards {
+        gap: 10px;
+    }
 .hebergements-cards .card {
     width: 100%;
 }
