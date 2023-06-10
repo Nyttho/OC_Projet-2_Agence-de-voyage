@@ -259,6 +259,9 @@ h1 {
         flex-direction: column;
         align-items: flex-start;
     }
+    .filtre_container a {
+        margin-right: 0.7rem;
+    }
 
     .filtre_liens {
         margin-top: 2rem;
