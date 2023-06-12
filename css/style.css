@@ -63,6 +63,8 @@ header {
 .logo {
     width: 61.09px;
     height: 19px;
+    position: relative;
+    top: 15px;
 }
 
 .top_page {
@@ -103,9 +105,12 @@ h1 {
 
 
     /* header mobile  */
+    .logo {
+        position: initial;
+    }
     header {
         padding: 0 30px;
-        /*remettre à 20px après test*/
+        
     }
 
     .top_page {
