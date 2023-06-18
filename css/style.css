@@ -519,6 +519,9 @@ footer li {
     .activites h2 {
         margin-left: 0;
     }
+    .activite-card h3 {
+        height: 65px;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -609,7 +612,6 @@ footer li {
         width: 100%;
         gap: 1rem;
         margin-bottom: 1rem;
-        /* height: 200px; */
 
     }
 
